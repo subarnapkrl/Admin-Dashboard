@@ -159,7 +159,8 @@ a{
    
 }
 .section-2{
-    background-color: darkkhaki;
+    background-color: #d1d5db;
+    padding: 10px
 }
 .section-3{
     background-color: lightseagreen;
@@ -190,4 +191,31 @@ a{
 .icons{
     text-align: right;
     
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding:36px;
+    margin: 0 auto;
+    background-color: #fafafa;
+    border-radius: 15px;
+}
+.section-2 h1{
+    font-weight: lighter;
+    margin: 20px;
+}
+.announce{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    
+}
+.announce h3{
+    margin-bottom: 8px;
+}
+.announce p{
+    margin-bottom: 10px;
 }

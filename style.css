@@ -71,7 +71,7 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
-    height: 60%;
+    
     padding: 1.5rem 2.5rem;
     box-shadow: 10px 4px 2px -2px gray;
    
@@ -144,4 +144,50 @@ a{
     font-weight: bold;
     color: #f0f9ff;
     cursor: pointer;
+}
+
+
+.home-page{
+    
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+}
+.section-1{
+    background-color: #d1d5db;
+    grid-row: 1/3;
+   
+}
+.section-2{
+    background-color: darkkhaki;
+}
+.section-3{
+    background-color: lightseagreen;
+}
+.inside-grid{
+    display: grid;
+    gap: 32px;
+    grid-template-columns: 1fr 1fr;
+    margin: 16px;
+}
+.grid-1{
+    background-color: #fafafa;
+    
+    padding: 32px;
+    border-left: 8px solid #ea580c;
+    border-radius: 18px;
+}
+.section-1 h1{
+    font-weight: lighter;
+    margin: 20px;
+}
+.grid-1 h2{
+    margin-bottom: 16px;
+}
+.para{
+    margin-bottom: 24px;
+}
+.icons{
+    text-align: right;
+    
 }
